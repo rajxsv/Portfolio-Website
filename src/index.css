@@ -1,46 +1,9 @@
-.portfolio-container {
-  font-family: monospace;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.portfolio-header {
-  text-align: center;
-}
-
-.portfolio-title {
-  font-size: 2em;
-}
-
-.portfolio-navigation {
-  text-align: center;
-}
-
-.portfolio-menu {
-  list-style-type: none;
-  padding: 0;
-}
-
-.portfolio-menu li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.skills {
-  display: flex;
-  justify-content: space-between;
-}
-
-.portfolio-content {
-  margin-top: 20px;
-}
-
-.portfolio-section {
-  margin-bottom: 30px;
-}
-
-.portfolio-footer {
-  text-align: center;
-  margin-top: 50px;
-}
+body {
+  font-family: "Montserrat Alternates";
+  background-color: black;
+} 
